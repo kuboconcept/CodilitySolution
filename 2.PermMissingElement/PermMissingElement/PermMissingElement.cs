@@ -1,0 +1,83 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace PermMissingElement
+{
+    /* 
+    A zero-indexed array A consisting of N different integers is given. The array contains integers in the range [1..(N + 1)], which means that exactly one element is missing.
+
+    Your goal is to find that missing element.
+
+    Write a function:
+
+        class Solution { public int solution(int[] A); } 
+
+    that, given a zero-indexed array A, returns the value of the missing element.
+
+    For example, given array A such that:
+
+      A[0] = 2
+      A[1] = 3
+      A[2] = 1
+      A[3] = 5
+
+    the function should return 4, as it is the missing element.
+
+    Assume that:
+
+            N is an integer within the range [0..100,000];
+            the elements of A are all distinct;
+            each element of array A is an integer within the range [1..(N + 1)].
+
+    Complexity:
+
+            expected worst-case time complexity is O(N);
+            expected worst-case space complexity is O(1), beyond input storage (not counting the storage required for input arguments).
+
+    Elements of input arrays can be modified.
+    */
+
+    public class PermMissingElement
+    {
+        public static readonly int MAX_LENGTH = 100000;
+
+        public static int Solution(int[] a)
+        {
+            var result = 0;
+            var total = 0;
+            var actualTotal = 0;
+            var length = a.Length;
+
+            try
+            {
+                // check input length
+                if (length > MAX_LENGTH) throw new ArgumentOutOfRangeException("N", "N greater than 100000");
+
+                for (int i = 0; i < length; i++)
+                {
+                    if (a[i] > length + 1) throw new ArgumentOutOfRangeException("Item", "Item is greater than N + 1");
+                    actualTotal += a[i];
+                    total += i + 1;
+                }
+
+                total += length + 1;
+                result = total - actualTotal;
+            }
+            catch (ArgumentOutOfRangeException aoore)
+            {
+                Console.WriteLine(string.Format("Something goes wrong: {0}", aoore.Message));
+                throw;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(string.Format("Something goes wrong: {0}", ex.Message));
+                throw;
+            }
+
+            return result;
+        }
+    }
+}

@@ -1,0 +1,10 @@
+D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\PermMissingElement\bin\Debug\PermMissingElement.dll
+D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\PermMissingElement\bin\Debug\PermMissingElement.pdb
+D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\PermMissingElement\obj\Debug\PermMissingElement.csprojResolveAssemblyReference.cache
+D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\PermMissingElement\obj\Debug\PermMissingElement.dll
+D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\PermMissingElement\obj\Debug\PermMissingElement.pdb
+D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\2.PermMissingElement\PermMissingElement\bin\Debug\PermMissingElement.dll
+D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\2.PermMissingElement\PermMissingElement\bin\Debug\PermMissingElement.pdb
+D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\2.PermMissingElement\PermMissingElement\obj\Debug\PermMissingElement.csprojResolveAssemblyReference.cache
+D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\2.PermMissingElement\PermMissingElement\obj\Debug\PermMissingElement.dll
+D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\2.PermMissingElement\PermMissingElement\obj\Debug\PermMissingElement.pdb
