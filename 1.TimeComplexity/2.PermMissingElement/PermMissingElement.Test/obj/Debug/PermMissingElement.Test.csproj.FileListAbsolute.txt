@@ -1,0 +1,14 @@
+D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\2.PermMissingElement\PermMissingElement.Test\obj\Debug\PermMissingElement.Test.csprojResolveAssemblyReference.cache
+D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\2.PermMissingElement\PermMissingElement.Test\bin\Debug\PermMissingElement.Test.dll
+D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\2.PermMissingElement\PermMissingElement.Test\bin\Debug\PermMissingElement.Test.pdb
+D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\2.PermMissingElement\PermMissingElement.Test\bin\Debug\PermMissingElement.dll
+D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\2.PermMissingElement\PermMissingElement.Test\bin\Debug\PermMissingElement.pdb
+D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\2.PermMissingElement\PermMissingElement.Test\obj\Debug\PermMissingElement.Test.dll
+D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\2.PermMissingElement\PermMissingElement.Test\obj\Debug\PermMissingElement.Test.pdb
+D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\1.TimeComplexity\2.PermMissingElement\PermMissingElement.Test\bin\Debug\PermMissingElement.Test.dll
+D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\1.TimeComplexity\2.PermMissingElement\PermMissingElement.Test\bin\Debug\PermMissingElement.Test.pdb
+D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\1.TimeComplexity\2.PermMissingElement\PermMissingElement.Test\bin\Debug\PermMissingElement.dll
+D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\1.TimeComplexity\2.PermMissingElement\PermMissingElement.Test\bin\Debug\PermMissingElement.pdb
+D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\1.TimeComplexity\2.PermMissingElement\PermMissingElement.Test\obj\Debug\PermMissingElement.Test.csprojResolveAssemblyReference.cache
+D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\1.TimeComplexity\2.PermMissingElement\PermMissingElement.Test\obj\Debug\PermMissingElement.Test.dll
+D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\1.TimeComplexity\2.PermMissingElement\PermMissingElement.Test\obj\Debug\PermMissingElement.Test.pdb
