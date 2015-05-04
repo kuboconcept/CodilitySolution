@@ -2,3 +2,4 @@ D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\3.TapeEquilibrium\Tap
 D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\3.TapeEquilibrium\TapeEquilibrium\bin\Debug\TapeEquilibrium.pdb
 D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\3.TapeEquilibrium\TapeEquilibrium\obj\Debug\TapeEquilibrium.dll
 D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\3.TapeEquilibrium\TapeEquilibrium\obj\Debug\TapeEquilibrium.pdb
+D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\3.TapeEquilibrium\TapeEquilibrium\obj\Debug\TapeEquilibrium.csprojResolveAssemblyReference.cache

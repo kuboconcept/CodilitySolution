@@ -60,9 +60,67 @@ namespace TapeEquilibrium
     */
     public class TapeEquilibrium
     {
+        public static readonly int MIN_LENGTH = 2;
+        public static readonly int MAX_LENGTH = 100000;
+        public static readonly int MIN_VALUE = -1000;
+        public static readonly int MAX_VALUE = 1000;
+
         public static int Solution(int[] a)
         {
-            throw new NotImplementedException();
+            var result = 0;
+            var length = a.Length;
+
+            try
+            {
+                // Check length
+                if (length < MIN_LENGTH || MAX_LENGTH < length) throw new ArgumentOutOfRangeException("N", "Length is less than 2 or more than 100000");
+
+                var sum = new int[length];
+                var sumDesc = new int[length];
+
+                // Check item value
+                if (a[0] < MIN_VALUE || MAX_VALUE < a[0]) throw new ArgumentOutOfRangeException("N", "Item value is less than -1000 or more than 1000");
+                
+                // Get sum array value
+                for (int i = 1; i < length; i++)
+                {
+                    // Check item value
+                    if (a[i] < MIN_VALUE || MAX_VALUE < a[i]) throw new ArgumentOutOfRangeException("N", "Item value is less than -1000 or more than 1000");
+
+                    sum[i] = sum[i - 1] + a[i-1];
+
+                    if (i == 1)
+                    {
+                        sumDesc[length - i] = a[length - 1];
+                    }
+                    else
+                    {
+                        sumDesc[length - i] = sumDesc[length - i + 1] + a[length - i];
+                    }
+                }
+
+                // Find minimum difference
+                var minDiff = int.MaxValue;
+                for (int j = 1; j < length; j++)
+                {
+                    var diff = Math.Abs(sum[j] - sumDesc[j]);
+                    if (diff < minDiff) minDiff = diff;
+                }
+
+                result = minDiff;
+            }
+            catch (ArgumentOutOfRangeException aoore)
+            {
+                Console.WriteLine(string.Format("Something goes wrong: {0}", aoore.Message));
+                throw;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(string.Format("Something goes wrong: {0}", ex.Message));
+                throw;
+            }
+
+            return result;
         }
     }
 }

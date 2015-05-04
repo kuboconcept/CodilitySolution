@@ -75,7 +75,7 @@ namespace TapeEquilibrium.Test
         public void Failed_NGreaterThanMaxLength_ArgumentOutOfRangeException()
         {
             // arrange
-            var a = new int[100000];
+            var a = new int[100001];
 
             // act
             TapeEquilibrium.Solution(a);
@@ -104,7 +104,6 @@ namespace TapeEquilibrium.Test
         }
 
         [TestMethod]
-        [ExpectedException(typeof(ArgumentOutOfRangeException))]
         public void Success_ValidData()
         {
             // arrange
