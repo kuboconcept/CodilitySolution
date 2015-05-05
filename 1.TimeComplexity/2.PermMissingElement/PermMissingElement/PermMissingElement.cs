@@ -98,14 +98,8 @@ namespace PermMissingElementSolution
                 total += length + 1;
                 result = total - actualTotal;
             }
-            catch (ArgumentOutOfRangeException aoore)
+            catch (Exception)
             {
-                Console.WriteLine(string.Format(CultureInfo.CurrentCulture, "Something goes wrong: {0}", aoore.Message));
-                throw;
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine(string.Format(CultureInfo.CurrentCulture, "Something goes wrong: {0}", ex.Message));
                 throw;
             }
 

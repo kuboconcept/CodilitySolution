@@ -92,19 +92,8 @@ namespace FrogJmpSolution
                 // Solution
                 result = (int)Math.Ceiling((decimal)(y - x) / d);
             }
-            catch (ArgumentOutOfRangeException aoore)
-            {
-                Console.WriteLine(string.Format(CultureInfo.CurrentCulture, "Something goes wrong: {0}", aoore.Message));
-                throw;
-            }
-            catch (InvalidOperationException ioe)
-            {
-                Console.WriteLine(string.Format(CultureInfo.CurrentCulture, "Something goes wrong: {0}", ioe.Message));
-                throw;
-            }
             catch (Exception)
             {
-                Console.WriteLine("Something goes wrong");
                 throw;
             }
 

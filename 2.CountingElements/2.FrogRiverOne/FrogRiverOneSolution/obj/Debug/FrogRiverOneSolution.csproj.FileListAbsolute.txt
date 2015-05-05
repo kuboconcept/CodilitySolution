@@ -1,0 +1,6 @@
+D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\2.CountingElements\2.FrogRiverOne\FrogRiverOneSolution\bin\Debug\FrogRiverOneSolution.dll
+D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\2.CountingElements\2.FrogRiverOne\FrogRiverOneSolution\bin\Debug\FrogRiverOneSolution.pdb
+D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\2.CountingElements\2.FrogRiverOne\FrogRiverOneSolution\obj\Debug\FrogRiverOneSolution.dll
+D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\2.CountingElements\2.FrogRiverOne\FrogRiverOneSolution\obj\Debug\FrogRiverOneSolution.pdb
+D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\2.CountingElements\2.FrogRiverOne\FrogRiverOneSolution\bin\Debug\FrogRiverOneSolution.dll.CodeAnalysisLog.xml
+D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\2.CountingElements\2.FrogRiverOne\FrogRiverOneSolution\bin\Debug\FrogRiverOneSolution.dll.lastcodeanalysissucceeded
