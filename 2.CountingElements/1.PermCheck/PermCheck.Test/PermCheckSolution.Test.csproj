@@ -3,11 +3,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{FD035B56-6535-4F53-8CD1-58C4728DDB73}</ProjectGuid>
+    <ProjectGuid>{EE2150E5-8B5A-4FAA-AC0C-A8118925813F}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>TapeEquilibriumTest</RootNamespace>
-    <AssemblyName>TapeEquilibriumTest</AssemblyName>
+    <RootNamespace>PermCheck.Test</RootNamespace>
+    <AssemblyName>PermCheck.Test</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -25,6 +25,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>..\..\..\Code Analysis Rules.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -50,13 +51,13 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="TapeEquilibriumTest.cs" />
+    <Compile Include="PermCheckTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\TapeEquilibrium\TapeEquilibrium.csproj">
-      <Project>{b067409e-042f-42d1-bcbb-302462c468d3}</Project>
-      <Name>TapeEquilibrium</Name>
+    <ProjectReference Include="..\PermCheck\PermCheckSolution.csproj">
+      <Project>{b39def1f-3b33-4b71-aca5-c48109269bae}</Project>
+      <Name>PermCheckSolution</Name>
     </ProjectReference>
   </ItemGroup>
   <Choose>

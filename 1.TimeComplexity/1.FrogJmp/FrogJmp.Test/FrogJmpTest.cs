@@ -1,8 +1,9 @@
 ﻿using System;
-using FrogJmp;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace FrogJmp.Test
+[assembly: CLSCompliant(true)]
+
+namespace FrogJmpSolution.Test
 {
     /*
     A small frog wants to get to the other side of the road. The frog is 
@@ -41,11 +42,20 @@ namespace FrogJmp.Test
             expected worst-case space complexity is O(1).
     */
 
+    /// <summary>
+    /// Test class for FrogJump class.
+    /// </summary>
     [TestClass]
     public class FrogJmpTest
     {
-        Random _rand = new Random();
+        /// <summary>
+        /// The random number generator.
+        /// </summary>
+        private Random _rand = new Random();
 
+        /// <summary>
+        /// Failed_s the x less than1_ argument out of range exception.
+        /// </summary>
         [TestMethod]
         [ExpectedException(typeof(ArgumentOutOfRangeException))]
         public void Failed_XLessThan1_ArgumentOutOfRangeException()
@@ -54,12 +64,15 @@ namespace FrogJmp.Test
             // No need arrange data
 
             // act
-            FrogJmp.Solution(_rand.Next(int.MinValue, 1), _rand.Next(FrogJmp.MIN_VAL, FrogJmp.MAX_VAL + 1), _rand.Next(FrogJmp.MIN_VAL, FrogJmp.MAX_VAL + 1));
+            FrogJmp.Solution(this._rand.Next(int.MinValue, 1), this._rand.Next(FrogJmp.MIN_VAL, FrogJmp.MAX_VAL + 1), this._rand.Next(FrogJmp.MIN_VAL, FrogJmp.MAX_VAL + 1));
 
             // assert
             // No need assert data because expect exception
         }
 
+        /// <summary>
+        /// Failed_s the x bigger than1000000000_ argument out of range exception.
+        /// </summary>
         [TestMethod]
         [ExpectedException(typeof(ArgumentOutOfRangeException))]
         public void Failed_XBiggerThan1000000000_ArgumentOutOfRangeException()
@@ -68,12 +81,15 @@ namespace FrogJmp.Test
             // No need arrange data
 
             // act
-            FrogJmp.Solution(_rand.Next(1000000001, int.MaxValue), _rand.Next(FrogJmp.MIN_VAL, FrogJmp.MAX_VAL + 1), _rand.Next(FrogJmp.MIN_VAL, FrogJmp.MAX_VAL + 1));
+            FrogJmp.Solution(this._rand.Next(1000000001, int.MaxValue), this._rand.Next(FrogJmp.MIN_VAL, FrogJmp.MAX_VAL + 1), this._rand.Next(FrogJmp.MIN_VAL, FrogJmp.MAX_VAL + 1));
 
             // assert
             // No need assert data because expect exception
         }
 
+        /// <summary>
+        /// Failed_s the y less than1_ argument out of range exception.
+        /// </summary>
         [TestMethod]
         [ExpectedException(typeof(ArgumentOutOfRangeException))]
         public void Failed_YLessThan1_ArgumentOutOfRangeException()
@@ -82,12 +98,15 @@ namespace FrogJmp.Test
             // No need arrange data
 
             // act
-            FrogJmp.Solution(_rand.Next(FrogJmp.MIN_VAL, FrogJmp.MAX_VAL + 1), _rand.Next(int.MinValue, 1), _rand.Next(FrogJmp.MIN_VAL, FrogJmp.MAX_VAL + 1));
+            FrogJmp.Solution(this._rand.Next(FrogJmp.MIN_VAL, FrogJmp.MAX_VAL + 1), this._rand.Next(int.MinValue, 1), this._rand.Next(FrogJmp.MIN_VAL, FrogJmp.MAX_VAL + 1));
 
             // assert
             // No need assert data because expect exception
         }
 
+        /// <summary>
+        /// Failed_s the y greater than1000000000_ argument out of range exception.
+        /// </summary>
         [TestMethod]
         [ExpectedException(typeof(ArgumentOutOfRangeException))]
         public void Failed_YGreaterThan1000000000_ArgumentOutOfRangeException()
@@ -96,12 +115,15 @@ namespace FrogJmp.Test
             // No need arrange data
 
             // act
-            FrogJmp.Solution(_rand.Next(FrogJmp.MIN_VAL, FrogJmp.MAX_VAL + 1), _rand.Next(FrogJmp.MAX_VAL + 1, int.MaxValue), _rand.Next(FrogJmp.MIN_VAL, FrogJmp.MAX_VAL + 1));
+            FrogJmp.Solution(this._rand.Next(FrogJmp.MIN_VAL, FrogJmp.MAX_VAL + 1), this._rand.Next(FrogJmp.MAX_VAL + 1, int.MaxValue), this._rand.Next(FrogJmp.MIN_VAL, FrogJmp.MAX_VAL + 1));
 
             // assert
             // No need assert data because expect exception
         }
 
+        /// <summary>
+        /// Failed_s the d less than1_ argument out of range exception.
+        /// </summary>
         [TestMethod]
         [ExpectedException(typeof(ArgumentOutOfRangeException))]
         public void Failed_DLessThan1_ArgumentOutOfRangeException()
@@ -110,12 +132,15 @@ namespace FrogJmp.Test
             // No need arrange data
 
             // act
-            FrogJmp.Solution(_rand.Next(FrogJmp.MIN_VAL, FrogJmp.MAX_VAL + 1), _rand.Next(FrogJmp.MIN_VAL, FrogJmp.MAX_VAL + 1), _rand.Next(int.MinValue, 1));
+            FrogJmp.Solution(this._rand.Next(FrogJmp.MIN_VAL, FrogJmp.MAX_VAL + 1), this._rand.Next(FrogJmp.MIN_VAL, FrogJmp.MAX_VAL + 1), this._rand.Next(int.MinValue, 1));
 
             // assert
             // No need assert data because expect exception
         }
 
+        /// <summary>
+        /// Failed_s the d greater than1000000000_ argument out of range exception.
+        /// </summary>
         [TestMethod]
         [ExpectedException(typeof(ArgumentOutOfRangeException))]
         public void Failed_DGreaterThan1000000000_ArgumentOutOfRangeException()
@@ -124,27 +149,33 @@ namespace FrogJmp.Test
             // No need arrange data
 
             // act
-            FrogJmp.Solution(_rand.Next(int.MinValue, 1), _rand.Next(FrogJmp.MIN_VAL, FrogJmp.MAX_VAL + 1), _rand.Next(FrogJmp.MAX_VAL + 1, int.MaxValue));
+            FrogJmp.Solution(this._rand.Next(int.MinValue, 1), this._rand.Next(FrogJmp.MIN_VAL, FrogJmp.MAX_VAL + 1), this._rand.Next(FrogJmp.MAX_VAL + 1, int.MaxValue));
 
             // assert
             // No need assert data because expect exception
         }
 
+        /// <summary>
+        /// Failed_s the x greater than y_ invalid operation exception.
+        /// </summary>
         [TestMethod]
         [ExpectedException(typeof(InvalidOperationException))]
         public void Failed_XGreaterThanY_InvalidOperationException()
         {
             // arrange
-            var x = _rand.Next(FrogJmp.MIN_VAL + 1, FrogJmp.MAX_VAL);
-            var y = _rand.Next(FrogJmp.MIN_VAL, x);
+            var x = this._rand.Next(FrogJmp.MIN_VAL + 1, FrogJmp.MAX_VAL);
+            var y = this._rand.Next(FrogJmp.MIN_VAL, x);
 
             // act
-            FrogJmp.Solution(x, y, _rand.Next(FrogJmp.MIN_VAL, FrogJmp.MAX_VAL + 1));
+            FrogJmp.Solution(x, y, this._rand.Next(FrogJmp.MIN_VAL, FrogJmp.MAX_VAL + 1));
 
             // assert
             // No need assert data because expect exception
         }
 
+        /// <summary>
+        /// Success_s the valid data.
+        /// </summary>
         [TestMethod]
         public void Success_ValidData()
         {

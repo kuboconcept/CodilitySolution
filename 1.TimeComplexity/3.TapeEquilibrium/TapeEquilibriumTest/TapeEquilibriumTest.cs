@@ -1,7 +1,9 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace TapeEquilibrium.Test
+[assembly: CLSCompliant(true)]
+
+namespace TapeEquilibriumSolution.Test
 {
     /*
     A non-empty zero-indexed array A consisting of N integers is given. Array A represents numbers on a tape.
@@ -56,9 +58,15 @@ namespace TapeEquilibrium.Test
     Elements of input arrays can be modified.
     */
 
+    /// <summary>
+    /// Test class for TapeEquilibrium class.
+    /// </summary>
     [TestClass]
     public class TapeEquilibriumTest
     {
+        /// <summary>
+        /// Failed_s the n less than minimum length_ argument out of range exception.
+        /// </summary>
         [TestMethod]
         [ExpectedException(typeof(ArgumentOutOfRangeException))]
         public void Failed_NLessThanMinLength_ArgumentOutOfRangeException()
@@ -70,6 +78,9 @@ namespace TapeEquilibrium.Test
             TapeEquilibrium.Solution(a);
         }
 
+        /// <summary>
+        /// Failed_s the n greater than maximum length_ argument out of range exception.
+        /// </summary>
         [TestMethod]
         [ExpectedException(typeof(ArgumentOutOfRangeException))]
         public void Failed_NGreaterThanMaxLength_ArgumentOutOfRangeException()
@@ -81,6 +92,9 @@ namespace TapeEquilibrium.Test
             TapeEquilibrium.Solution(a);
         }
 
+        /// <summary>
+        /// Failed_s the item less than minimum value_ argument out of range exception.
+        /// </summary>
         [TestMethod]
         [ExpectedException(typeof(ArgumentOutOfRangeException))]
         public void Failed_ItemLessThanMinValue_ArgumentOutOfRangeException()
@@ -92,6 +106,9 @@ namespace TapeEquilibrium.Test
             TapeEquilibrium.Solution(a);
         }
 
+        /// <summary>
+        /// Failed_s the item greater than maximum value_ argument out of range exception.
+        /// </summary>
         [TestMethod]
         [ExpectedException(typeof(ArgumentOutOfRangeException))]
         public void Failed_ItemGreaterThanMaxValue_ArgumentOutOfRangeException()
@@ -103,6 +120,9 @@ namespace TapeEquilibrium.Test
             TapeEquilibrium.Solution(a);
         }
 
+        /// <summary>
+        /// Success_s the valid data.
+        /// </summary>
         [TestMethod]
         public void Success_ValidData()
         {

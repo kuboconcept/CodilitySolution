@@ -7,21 +7,29 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.TimeComplexity", "1.TimeC
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.FrogJmp", "1.FrogJmp", "{1D9216BE-347E-441E-956A-93D4C66577BE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrogJmp", "1.TimeComplexity\1.FrogJmp\FrogJmp\FrogJmp.csproj", "{33F50D24-B0EB-4AD6-8103-3229A839B9C4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrogJmpSolution", "1.TimeComplexity\1.FrogJmp\FrogJmp\FrogJmpSolution.csproj", "{33F50D24-B0EB-4AD6-8103-3229A839B9C4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrogJmp.Test", "1.TimeComplexity\1.FrogJmp\FrogJmp.Test\FrogJmp.Test.csproj", "{ED029D71-6D3C-43BC-B361-E28F5D27E231}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrogJmpSolution.Test", "1.TimeComplexity\1.FrogJmp\FrogJmp.Test\FrogJmpSolution.Test.csproj", "{ED029D71-6D3C-43BC-B361-E28F5D27E231}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.PermMissingElement", "2.PermMissingElement", "{5A6DEB87-2479-4D9F-AAA5-AA4D2CF1177B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.TapeEquilibrium", "3.TapeEquilibrium", "{96C9E278-E277-4ECC-A5B6-17C0C16D4FAD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PermMissingElement", "1.TimeComplexity\2.PermMissingElement\PermMissingElement\PermMissingElement.csproj", "{9905D417-FC7C-4391-93BD-D583452A037A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PermMissingElementSolution", "1.TimeComplexity\2.PermMissingElement\PermMissingElement\PermMissingElementSolution.csproj", "{9905D417-FC7C-4391-93BD-D583452A037A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PermMissingElement.Test", "1.TimeComplexity\2.PermMissingElement\PermMissingElement.Test\PermMissingElement.Test.csproj", "{C66479B3-3209-4399-B267-2B464C4B5FF2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PermMissingElementSolution.Test", "1.TimeComplexity\2.PermMissingElement\PermMissingElement.Test\PermMissingElementSolution.Test.csproj", "{C66479B3-3209-4399-B267-2B464C4B5FF2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TapeEquilibrium", "1.TimeComplexity\3.TapeEquilibrium\TapeEquilibrium\TapeEquilibrium.csproj", "{B067409E-042F-42D1-BCBB-302462C468D3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TapeEquilibriumSolution", "1.TimeComplexity\3.TapeEquilibrium\TapeEquilibrium\TapeEquilibriumSolution.csproj", "{B067409E-042F-42D1-BCBB-302462C468D3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TapeEquilibrium.Test", "1.TimeComplexity\3.TapeEquilibrium\TapeEquilibriumTest\TapeEquilibrium.Test.csproj", "{FD035B56-6535-4F53-8CD1-58C4728DDB73}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TapeEquilibriumSolution.Test", "1.TimeComplexity\3.TapeEquilibrium\TapeEquilibriumTest\TapeEquilibriumSolution.Test.csproj", "{FD035B56-6535-4F53-8CD1-58C4728DDB73}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.CountingElements", "2.CountingElements", "{FF4B50C1-A044-49E9-82A1-B88C70D3FB88}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.PermCheck", "1.PermCheck", "{17D9C6EB-5844-41F8-80E2-26BF1D7E163B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PermCheckSolution.Test", "2.CountingElements\1.PermCheck\PermCheck.Test\PermCheckSolution.Test.csproj", "{EE2150E5-8B5A-4FAA-AC0C-A8118925813F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PermCheckSolution", "2.CountingElements\1.PermCheck\PermCheck\PermCheckSolution.csproj", "{B39DEF1F-3B33-4B71-ACA5-C48109269BAE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -53,6 +61,14 @@ Global
 		{FD035B56-6535-4F53-8CD1-58C4728DDB73}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FD035B56-6535-4F53-8CD1-58C4728DDB73}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FD035B56-6535-4F53-8CD1-58C4728DDB73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE2150E5-8B5A-4FAA-AC0C-A8118925813F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE2150E5-8B5A-4FAA-AC0C-A8118925813F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE2150E5-8B5A-4FAA-AC0C-A8118925813F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE2150E5-8B5A-4FAA-AC0C-A8118925813F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B39DEF1F-3B33-4B71-ACA5-C48109269BAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B39DEF1F-3B33-4B71-ACA5-C48109269BAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B39DEF1F-3B33-4B71-ACA5-C48109269BAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B39DEF1F-3B33-4B71-ACA5-C48109269BAE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -67,5 +83,8 @@ Global
 		{C66479B3-3209-4399-B267-2B464C4B5FF2} = {5A6DEB87-2479-4D9F-AAA5-AA4D2CF1177B}
 		{B067409E-042F-42D1-BCBB-302462C468D3} = {96C9E278-E277-4ECC-A5B6-17C0C16D4FAD}
 		{FD035B56-6535-4F53-8CD1-58C4728DDB73} = {96C9E278-E277-4ECC-A5B6-17C0C16D4FAD}
+		{17D9C6EB-5844-41F8-80E2-26BF1D7E163B} = {FF4B50C1-A044-49E9-82A1-B88C70D3FB88}
+		{EE2150E5-8B5A-4FAA-AC0C-A8118925813F} = {17D9C6EB-5844-41F8-80E2-26BF1D7E163B}
+		{B39DEF1F-3B33-4B71-ACA5-C48109269BAE} = {17D9C6EB-5844-41F8-80E2-26BF1D7E163B}
 	EndGlobalSection
 EndGlobal

@@ -1,0 +1,6 @@
+D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\2.CountingElements\1.PermCheck\PermCheck\bin\Debug\PermCheck.dll
+D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\2.CountingElements\1.PermCheck\PermCheck\bin\Debug\PermCheck.pdb
+D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\2.CountingElements\1.PermCheck\PermCheck\obj\Debug\PermCheck.dll
+D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\2.CountingElements\1.PermCheck\PermCheck\obj\Debug\PermCheck.pdb
+D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\2.CountingElements\1.PermCheck\PermCheck\bin\Debug\PermCheck.dll.CodeAnalysisLog.xml
+D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\2.CountingElements\1.PermCheck\PermCheck\bin\Debug\PermCheck.dll.lastcodeanalysissucceeded

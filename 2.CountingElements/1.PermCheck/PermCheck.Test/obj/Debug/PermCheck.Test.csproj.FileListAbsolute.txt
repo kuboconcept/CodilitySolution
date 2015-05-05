@@ -1,0 +1,9 @@
+D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\2.CountingElements\1.PermCheck\PermCheck.Test\bin\Debug\PermCheck.Test.dll
+D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\2.CountingElements\1.PermCheck\PermCheck.Test\bin\Debug\PermCheck.Test.pdb
+D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\2.CountingElements\1.PermCheck\PermCheck.Test\bin\Debug\PermCheck.dll
+D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\2.CountingElements\1.PermCheck\PermCheck.Test\bin\Debug\PermCheck.pdb
+D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\2.CountingElements\1.PermCheck\PermCheck.Test\obj\Debug\PermCheck.Test.csprojResolveAssemblyReference.cache
+D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\2.CountingElements\1.PermCheck\PermCheck.Test\obj\Debug\PermCheck.Test.dll
+D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\2.CountingElements\1.PermCheck\PermCheck.Test\obj\Debug\PermCheck.Test.pdb
+D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\2.CountingElements\1.PermCheck\PermCheck.Test\bin\Debug\PermCheck.Test.dll.CodeAnalysisLog.xml
+D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\2.CountingElements\1.PermCheck\PermCheck.Test\bin\Debug\PermCheck.Test.dll.lastcodeanalysissucceeded

@@ -1,10 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PermMissingElement
+[assembly: CLSCompliant(true)]
+
+namespace PermMissingElementSolution
 {
     /* 
     A zero-indexed array A consisting of N different integers is given. The array contains integers in the range [1..(N + 1)], which means that exactly one element is missing.
@@ -40,12 +43,34 @@ namespace PermMissingElement
     Elements of input arrays can be modified.
     */
 
-    public class PermMissingElement
+    /// <summary>
+    /// Section 1 Lesson 2 PermMissing Element.
+    /// </summary>
+    public static class PermMissingElement
     {
+        /// <summary>
+        /// The max length.
+        /// </summary>
         public static readonly int MAX_LENGTH = 100000;
 
+        /// <summary>
+        /// Solutions the specified a.
+        /// </summary>
+        /// <param name="a">The array of input.</param>
+        /// <returns>The missing element.</returns>
+        /// <exception cref="System.ArgumentOutOfRangeException">
+        /// N;N greater than 100000
+        /// or
+        /// Item;Item is greater than N + 1.
+        /// </exception>
         public static int Solution(int[] a)
         {
+            // validate input
+            if (a == null || !a.Any())
+            {
+                throw new ArgumentException("Input is null or empty");
+            }
+
             var result = 0;
             var total = 0;
             var actualTotal = 0;
@@ -54,11 +79,18 @@ namespace PermMissingElement
             try
             {
                 // check input length
-                if (length > MAX_LENGTH) throw new ArgumentOutOfRangeException("N", "N greater than 100000");
+                if (length > MAX_LENGTH)
+                {
+                    throw new ArgumentOutOfRangeException("a", "N (length of a) greater than 100000");
+                }
 
                 for (int i = 0; i < length; i++)
                 {
-                    if (a[i] > length + 1) throw new ArgumentOutOfRangeException("Item", "Item is greater than N + 1");
+                    if (a[i] > length + 1)
+                    {
+                        throw new ArgumentOutOfRangeException("a", "Item (a[i]) is greater than N + 1");
+                    }
+
                     actualTotal += a[i];
                     total += i + 1;
                 }
@@ -68,12 +100,12 @@ namespace PermMissingElement
             }
             catch (ArgumentOutOfRangeException aoore)
             {
-                Console.WriteLine(string.Format("Something goes wrong: {0}", aoore.Message));
+                Console.WriteLine(string.Format(CultureInfo.CurrentCulture, "Something goes wrong: {0}", aoore.Message));
                 throw;
             }
             catch (Exception ex)
             {
-                Console.WriteLine(string.Format("Something goes wrong: {0}", ex.Message));
+                Console.WriteLine(string.Format(CultureInfo.CurrentCulture, "Something goes wrong: {0}", ex.Message));
                 throw;
             }
 

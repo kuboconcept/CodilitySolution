@@ -1,10 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FrogJmp
+[assembly: CLSCompliant(true)]
+
+namespace FrogJmpSolution
 {
     /*
     A small frog wants to get to the other side of the road. The frog is 
@@ -42,11 +45,31 @@ namespace FrogJmp
             expected worst-case time complexity is O(1);
             expected worst-case space complexity is O(1).
     */
-    public class FrogJmp
+
+    /// <summary>
+    /// Section 1 Lesson 1 Frog Jump.
+    /// </summary>
+    public static class FrogJmp
     {
+        /// <summary>
+        /// The min value.
+        /// </summary>
         public static readonly int MIN_VAL = 1;
+
+        /// <summary>
+        /// The max value.
+        /// </summary>
         public static readonly int MAX_VAL = 1000000000;
 
+        /// <summary>
+        /// Solutions the specified x.
+        /// </summary>
+        /// <param name="x">The start point.</param>
+        /// <param name="y">The end point.</param>
+        /// <param name="d">The distance of every step.</param>
+        /// <returns>The total step count.</returns>
+        /// <exception cref="System.ArgumentOutOfRangeException">X or Y or D;X or Y or D is outside range 1-1000000000.</exception>
+        /// <exception cref="System.InvalidOperationException">X is greater than Y.</exception>
         public static int Solution(int x, int y, int d)
         {
             int result = 0;
@@ -57,23 +80,26 @@ namespace FrogJmp
                 if (x < MIN_VAL || y < MIN_VAL || d < MIN_VAL ||
                     x > MAX_VAL || y > MAX_VAL || d > MAX_VAL)
                 {
-                    throw new ArgumentOutOfRangeException("X or Y or D", "X or Y or D is outside range 1-1000000000");
+                    throw new ArgumentOutOfRangeException("x", "X or Y or D is outside range 1-1000000000");
                 }
 
                 // Check input validity
-                if (x > y) throw new InvalidOperationException("X is greater than Y");
+                if (x > y)
+                {
+                    throw new InvalidOperationException("X is greater than Y");
+                }
 
                 // Solution
-                result = (int)Math.Ceiling(((decimal)(y - x) / d));
+                result = (int)Math.Ceiling((decimal)(y - x) / d);
             }
             catch (ArgumentOutOfRangeException aoore)
             {
-                Console.WriteLine(String.Format("Something goes wrong: {0}", aoore.Message));
+                Console.WriteLine(string.Format(CultureInfo.CurrentCulture, "Something goes wrong: {0}", aoore.Message));
                 throw;
             }
             catch (InvalidOperationException ioe)
             {
-                Console.WriteLine(String.Format("Something goes wrong: {0}", ioe.Message));
+                Console.WriteLine(string.Format(CultureInfo.CurrentCulture, "Something goes wrong: {0}", ioe.Message));
                 throw;
             }
             catch (Exception)

@@ -1,0 +1,9 @@
+D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\1.TimeComplexity\1.FrogJmp\FrogJmp.Test\bin\Debug\FrogJmp.Test.dll
+D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\1.TimeComplexity\1.FrogJmp\FrogJmp.Test\bin\Debug\FrogJmp.Test.pdb
+D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\1.TimeComplexity\1.FrogJmp\FrogJmp.Test\bin\Debug\FrogJmp.dll
+D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\1.TimeComplexity\1.FrogJmp\FrogJmp.Test\bin\Debug\FrogJmp.pdb
+D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\1.TimeComplexity\1.FrogJmp\FrogJmp.Test\obj\Debug\FrogJmpSolution.Test.csprojResolveAssemblyReference.cache
+D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\1.TimeComplexity\1.FrogJmp\FrogJmp.Test\obj\Debug\FrogJmp.Test.dll
+D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\1.TimeComplexity\1.FrogJmp\FrogJmp.Test\obj\Debug\FrogJmp.Test.pdb
+D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\1.TimeComplexity\1.FrogJmp\FrogJmp.Test\bin\Debug\FrogJmp.Test.dll.CodeAnalysisLog.xml
+D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\1.TimeComplexity\1.FrogJmp\FrogJmp.Test\bin\Debug\FrogJmp.Test.dll.lastcodeanalysissucceeded

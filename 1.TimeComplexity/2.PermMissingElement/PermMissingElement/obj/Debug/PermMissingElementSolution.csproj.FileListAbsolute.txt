@@ -1,0 +1,7 @@
+D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\1.TimeComplexity\2.PermMissingElement\PermMissingElement\bin\Debug\PermMissingElement.dll
+D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\1.TimeComplexity\2.PermMissingElement\PermMissingElement\bin\Debug\PermMissingElement.pdb
+D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\1.TimeComplexity\2.PermMissingElement\PermMissingElement\obj\Debug\PermMissingElement.dll
+D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\1.TimeComplexity\2.PermMissingElement\PermMissingElement\obj\Debug\PermMissingElement.pdb
+D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\1.TimeComplexity\2.PermMissingElement\PermMissingElement\bin\Debug\PermMissingElement.dll.CodeAnalysisLog.xml
+D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\1.TimeComplexity\2.PermMissingElement\PermMissingElement\bin\Debug\PermMissingElement.dll.lastcodeanalysissucceeded
+D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\1.TimeComplexity\2.PermMissingElement\PermMissingElement\obj\Debug\PermMissingElementSolution.csprojResolveAssemblyReference.cache

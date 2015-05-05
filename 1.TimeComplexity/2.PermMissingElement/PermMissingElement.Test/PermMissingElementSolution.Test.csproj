@@ -25,6 +25,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>..\..\..\Code Analysis Rules.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -54,9 +55,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\PermMissingElement\PermMissingElement.csproj">
+    <ProjectReference Include="..\PermMissingElement\PermMissingElementSolution.csproj">
       <Project>{9905d417-fc7c-4391-93bd-d583452a037a}</Project>
-      <Name>PermMissingElement</Name>
+      <Name>PermMissingElementSolution</Name>
     </ProjectReference>
   </ItemGroup>
   <Choose>

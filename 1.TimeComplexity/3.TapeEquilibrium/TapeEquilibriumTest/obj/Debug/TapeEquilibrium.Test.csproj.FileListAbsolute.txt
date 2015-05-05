@@ -5,3 +5,12 @@ D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\3.TapeEquilibrium\Tap
 D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\3.TapeEquilibrium\TapeEquilibriumTest\obj\Debug\TapeEquilibrium.Test.csprojResolveAssemblyReference.cache
 D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\3.TapeEquilibrium\TapeEquilibriumTest\obj\Debug\TapeEquilibriumTest.dll
 D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\3.TapeEquilibrium\TapeEquilibriumTest\obj\Debug\TapeEquilibriumTest.pdb
+D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\1.TimeComplexity\3.TapeEquilibrium\TapeEquilibriumTest\bin\Debug\TapeEquilibriumTest.dll
+D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\1.TimeComplexity\3.TapeEquilibrium\TapeEquilibriumTest\bin\Debug\TapeEquilibriumTest.pdb
+D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\1.TimeComplexity\3.TapeEquilibrium\TapeEquilibriumTest\bin\Debug\TapeEquilibrium.dll
+D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\1.TimeComplexity\3.TapeEquilibrium\TapeEquilibriumTest\bin\Debug\TapeEquilibrium.pdb
+D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\1.TimeComplexity\3.TapeEquilibrium\TapeEquilibriumTest\obj\Debug\TapeEquilibrium.Test.csprojResolveAssemblyReference.cache
+D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\1.TimeComplexity\3.TapeEquilibrium\TapeEquilibriumTest\obj\Debug\TapeEquilibriumTest.dll
+D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\1.TimeComplexity\3.TapeEquilibrium\TapeEquilibriumTest\obj\Debug\TapeEquilibriumTest.pdb
+D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\1.TimeComplexity\3.TapeEquilibrium\TapeEquilibriumTest\bin\Debug\TapeEquilibriumTest.dll.CodeAnalysisLog.xml
+D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\1.TimeComplexity\3.TapeEquilibrium\TapeEquilibriumTest\bin\Debug\TapeEquilibriumTest.dll.lastcodeanalysissucceeded

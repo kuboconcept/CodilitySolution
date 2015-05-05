@@ -1,7 +1,9 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace PermMissingElement.Test
+[assembly: CLSCompliant(true)]
+
+namespace PermMissingElementSolution.Test
 {
     /* 
     A zero-indexed array A consisting of N different integers is given. The array contains integers in the range [1..(N + 1)], which means that exactly one element is missing.
@@ -37,9 +39,15 @@ namespace PermMissingElement.Test
     Elements of input arrays can be modified.
     */
 
+    /// <summary>
+    /// Test class for PermMissingElement class.
+    /// </summary>
     [TestClass]
     public class PermMissingElementTest
     {
+        /// <summary>
+        /// Failed_s the n greater than100000_ argument out of range exception.
+        /// </summary>
         [TestMethod]
         [ExpectedException(typeof(ArgumentOutOfRangeException))]
         public void Failed_NGreaterThan100000_ArgumentOutOfRangeException()
@@ -51,6 +59,9 @@ namespace PermMissingElement.Test
             PermMissingElement.Solution(a);
         }
 
+        /// <summary>
+        /// Failed_s the item greater than n_ argument out of range exception.
+        /// </summary>
         [TestMethod]
         [ExpectedException(typeof(ArgumentOutOfRangeException))]
         public void Failed_ItemGreaterThanN_ArgumentOutOfRangeException()
@@ -62,6 +73,9 @@ namespace PermMissingElement.Test
             PermMissingElement.Solution(a);
         }
 
+        /// <summary>
+        /// Success_s the valid data.
+        /// </summary>
         [TestMethod]
         public void Success_ValidData()
         {

@@ -1,10 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TapeEquilibrium
+[assembly: CLSCompliant(true)]
+
+namespace TapeEquilibriumSolution
 {
     /*
     A non-empty zero-indexed array A consisting of N integers is given. Array A represents numbers on a tape.
@@ -58,36 +61,82 @@ namespace TapeEquilibrium
 
     Elements of input arrays can be modified.
     */
-    public class TapeEquilibrium
+
+    /// <summary>
+    /// Section 1 Lesson 2 PermMissing Element.
+    /// </summary>
+    public static class TapeEquilibrium
     {
+        /// <summary>
+        /// The min length.
+        /// </summary>
         public static readonly int MIN_LENGTH = 2;
+
+        /// <summary>
+        /// The max length.
+        /// </summary>
         public static readonly int MAX_LENGTH = 100000;
+
+        /// <summary>
+        /// The min value.
+        /// </summary>
         public static readonly int MIN_VALUE = -1000;
+
+        /// <summary>
+        /// The max value.
+        /// </summary>
         public static readonly int MAX_VALUE = 1000;
 
+        /// <summary>
+        /// Solutions the specified a.
+        /// </summary>
+        /// <param name="a">The input array.</param>
+        /// <returns>The minimum difference.</returns>
+        /// <exception cref="System.ArgumentOutOfRangeException">
+        /// N;Length is less than 2 or more than 100000
+        /// or
+        /// N;Item value is less than -1000 or more than 1000
+        /// or
+        /// N;Item value is less than -1000 or more than 1000.
+        /// </exception>
         public static int Solution(int[] a)
         {
+            // validate input
+            if (a == null || !a.Any())
+            {
+                throw new ArgumentException("Input is null or empty");
+            }
+
             var result = 0;
             var length = a.Length;
 
             try
             {
                 // Check length
-                if (length < MIN_LENGTH || MAX_LENGTH < length) throw new ArgumentOutOfRangeException("N", "Length is less than 2 or more than 100000");
+                if (length < MIN_LENGTH || MAX_LENGTH < length)
+                {
+                    throw new ArgumentOutOfRangeException("a", "N (length of a) is less than 2 or more than 100000");
+                }
 
                 var sum = new int[length];
                 var sumDesc = new int[length];
 
                 // Check item value
-                if (a[0] < MIN_VALUE || MAX_VALUE < a[0]) throw new ArgumentOutOfRangeException("N", "Item value is less than -1000 or more than 1000");
+                if (a[0] < MIN_VALUE || MAX_VALUE < a[0])
+                {
+                    throw new ArgumentOutOfRangeException("a", "Item (a[i]) value is less than -1000 or more than 1000");
+                }
                 
                 // Get sum array value
                 for (int i = 1; i < length; i++)
                 {
                     // Check item value
-                    if (a[i] < MIN_VALUE || MAX_VALUE < a[i]) throw new ArgumentOutOfRangeException("N", "Item value is less than -1000 or more than 1000");
+                    if (a[i] < MIN_VALUE || MAX_VALUE < a[i])
+                    {
+                        throw new ArgumentOutOfRangeException("a", "Item (a[i]) value is less than -1000 or more than 1000");
+                    }
 
-                    sum[i] = sum[i - 1] + a[i-1];
+                    sum[i] = sum[i - 1] + a[i - 1];
 
                     if (i == 1)
                     {
@@ -104,19 +153,22 @@ namespace TapeEquilibrium
                 for (int j = 1; j < length; j++)
                 {
                     var diff = Math.Abs(sum[j] - sumDesc[j]);
-                    if (diff < minDiff) minDiff = diff;
+                    if (diff < minDiff)
+                    {
+                        minDiff = diff;
+                    }
                 }
 
                 result = minDiff;
             }
             catch (ArgumentOutOfRangeException aoore)
             {
-                Console.WriteLine(string.Format("Something goes wrong: {0}", aoore.Message));
+                Console.WriteLine(string.Format(CultureInfo.CurrentCulture, "Something goes wrong: {0}", aoore.Message));
                 throw;
             }
             catch (Exception ex)
             {
-                Console.WriteLine(string.Format("Something goes wrong: {0}", ex.Message));
+                Console.WriteLine(string.Format(CultureInfo.CurrentCulture, "Something goes wrong: {0}", ex.Message));
                 throw;
             }
 
