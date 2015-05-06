@@ -72,7 +72,7 @@ namespace TapeEquilibriumSolution.Test
         public void Failed_NLessThanMinLength_ArgumentOutOfRangeException()
         {
             // arrange
-            var a = new int[] { 1 };
+            var a = new int[TapeEquilibrium.MIN_LENGTH - 1];
 
             // act
             TapeEquilibrium.Solution(a);
@@ -86,7 +86,7 @@ namespace TapeEquilibriumSolution.Test
         public void Failed_NGreaterThanMaxLength_ArgumentOutOfRangeException()
         {
             // arrange
-            var a = new int[100001];
+            var a = new int[TapeEquilibrium.MAX_LENGTH + 1];
 
             // act
             TapeEquilibrium.Solution(a);
@@ -100,7 +100,7 @@ namespace TapeEquilibriumSolution.Test
         public void Failed_ItemLessThanMinValue_ArgumentOutOfRangeException()
         {
             // arrange
-            var a = new int[] { -1001, 1 };
+            var a = new int[] { TapeEquilibrium.MIN_VALUE - 1, 1 };
 
             // act
             TapeEquilibrium.Solution(a);
@@ -114,7 +114,7 @@ namespace TapeEquilibriumSolution.Test
         public void Failed_ItemGreaterThanMaxValue_ArgumentOutOfRangeException()
         {
             // arrange
-            var a = new int[] { 1001, 1 };
+            var a = new int[] { TapeEquilibrium.MAX_VALUE + 1, 1 };
 
             // act
             TapeEquilibrium.Solution(a);

@@ -53,7 +53,7 @@ namespace PermMissingElementSolution.Test
         public void Failed_NGreaterThan100000_ArgumentOutOfRangeException()
         {
             // arrange
-            var a = new int[100001];
+            var a = new int[PermMissingElement.MAX_LENGTH + 1];
 
             // act
             PermMissingElement.Solution(a);

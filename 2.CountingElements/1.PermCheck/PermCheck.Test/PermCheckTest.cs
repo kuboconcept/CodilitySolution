@@ -77,7 +77,7 @@ namespace PermCheckSolution.Test
         public void Failed_NGreaterThan100000_ArgumentOutOfRangeException()
         {
             // arrange
-            var a = new int[100001];
+            var a = new int[PermCheck.MAX_LENGTH + 1];
 
             // act
             PermCheck.Solution(a);
@@ -91,7 +91,7 @@ namespace PermCheckSolution.Test
         public void Failed_ItemLessThan1_ArgumentOutOfRangeException()
         {
             // arrange
-            var a = new int[] { -1, 1 };
+            var a = new int[] { PermCheck.MIN_VALUE - 1, 1 };
 
             // act
             PermCheck.Solution(a);
@@ -105,7 +105,7 @@ namespace PermCheckSolution.Test
         public void Failed_ItemGreaterThan1000000000_ArgumentOutOfRangeException()
         {
             // arrange
-            var a = new int[] { 1, 1000000001 };
+            var a = new int[] { 1, PermCheck.MAX_VALUE + 1 };
 
             // act
             PermCheck.Solution(a);

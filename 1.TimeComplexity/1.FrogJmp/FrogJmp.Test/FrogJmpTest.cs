@@ -64,7 +64,7 @@ namespace FrogJmpSolution.Test
             // No need arrange data
 
             // act
-            FrogJmp.Solution(this._rand.Next(int.MinValue, 1), this._rand.Next(FrogJmp.MIN_VAL, FrogJmp.MAX_VAL + 1), this._rand.Next(FrogJmp.MIN_VAL, FrogJmp.MAX_VAL + 1));
+            FrogJmp.Solution(this._rand.Next(int.MinValue, FrogJmp.MIN_VAL), this._rand.Next(FrogJmp.MIN_VAL, FrogJmp.MAX_VAL + 1), this._rand.Next(FrogJmp.MIN_VAL, FrogJmp.MAX_VAL + 1));
 
             // assert
             // No need assert data because expect exception
@@ -81,7 +81,7 @@ namespace FrogJmpSolution.Test
             // No need arrange data
 
             // act
-            FrogJmp.Solution(this._rand.Next(1000000001, int.MaxValue), this._rand.Next(FrogJmp.MIN_VAL, FrogJmp.MAX_VAL + 1), this._rand.Next(FrogJmp.MIN_VAL, FrogJmp.MAX_VAL + 1));
+            FrogJmp.Solution(this._rand.Next(FrogJmp.MAX_VAL + 1, int.MaxValue), this._rand.Next(FrogJmp.MIN_VAL, FrogJmp.MAX_VAL + 1), this._rand.Next(FrogJmp.MIN_VAL, FrogJmp.MAX_VAL + 1));
 
             // assert
             // No need assert data because expect exception
@@ -132,7 +132,7 @@ namespace FrogJmpSolution.Test
             // No need arrange data
 
             // act
-            FrogJmp.Solution(this._rand.Next(FrogJmp.MIN_VAL, FrogJmp.MAX_VAL + 1), this._rand.Next(FrogJmp.MIN_VAL, FrogJmp.MAX_VAL + 1), this._rand.Next(int.MinValue, 1));
+            FrogJmp.Solution(this._rand.Next(FrogJmp.MIN_VAL, FrogJmp.MAX_VAL + 1), this._rand.Next(FrogJmp.MIN_VAL, FrogJmp.MAX_VAL + 1), this._rand.Next(int.MinValue, FrogJmp.MIN_VAL));
 
             // assert
             // No need assert data because expect exception
