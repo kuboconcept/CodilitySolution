@@ -2,4 +2,5 @@ D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\2.CountingElements\4.
 D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\2.CountingElements\4.MaxCounters\MaxCountersSolution\bin\Debug\MaxCountersSolution.pdb
 D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\2.CountingElements\4.MaxCounters\MaxCountersSolution\obj\Debug\MaxCountersSolution.dll
 D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\2.CountingElements\4.MaxCounters\MaxCountersSolution\obj\Debug\MaxCountersSolution.pdb
-D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\2.CountingElements\4.MaxCounters\MaxCountersSolution\obj\Debug\MaxCountersSolution.csprojResolveAssemblyReference.cache
+D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\2.CountingElements\4.MaxCounters\MaxCountersSolution\bin\Debug\MaxCountersSolution.dll.CodeAnalysisLog.xml
+D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\2.CountingElements\4.MaxCounters\MaxCountersSolution\bin\Debug\MaxCountersSolution.dll.lastcodeanalysissucceeded

@@ -107,17 +107,18 @@ namespace TapeEquilibriumSolution
                 throw new ArgumentException("Input is null or empty");
             }
 
-            var result = 0;
             var length = a.Length;
+            
+            // Check length
+            if (length < MIN_LENGTH || MAX_LENGTH < length)
+            {
+                throw new ArgumentOutOfRangeException("a", "N (length of a) is less than 2 or more than 100000");
+            }
+            
+            var result = 0;
 
             try
             {
-                // Check length
-                if (length < MIN_LENGTH || MAX_LENGTH < length)
-                {
-                    throw new ArgumentOutOfRangeException("a", "N (length of a) is less than 2 or more than 100000");
-                }
-
                 var sum = new int[length];
                 var sumDesc = new int[length];
 

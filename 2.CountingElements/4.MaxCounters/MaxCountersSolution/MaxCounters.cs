@@ -77,6 +77,9 @@ namespace MaxCountersSolution
     Elements of input arrays can be modified.
     */
 
+    /// <summary>
+    /// Session 2 Lesson 4.
+    /// </summary>
     public static class MaxCounters
     {
         /// <summary>
@@ -94,6 +97,19 @@ namespace MaxCountersSolution
         /// </summary>
         public static readonly int MIN_VALUE = 1;
 
+        /// <summary>
+        /// Solutions the specified n.
+        /// </summary>
+        /// <param name="n">The length of the counter.</param>
+        /// <param name="a">The input array.</param>
+        /// <returns>Array of the result.</returns>
+        /// <exception cref="System.ArgumentException">Input is null or empty.</exception>
+        /// <exception cref="System.ArgumentOutOfRangeException">
+        /// a;M (length of a) is less than 1 or more than 100000
+        /// or
+        /// n;N is less than 1 or more than 100000.
+        /// </exception>
+        /// <exception cref="System.InvalidOperationException">Item (a[i]) value is less than 1 or more than n + 1.</exception>
         public static int[] Solution(int n, int[] a)
         {
             // validate input

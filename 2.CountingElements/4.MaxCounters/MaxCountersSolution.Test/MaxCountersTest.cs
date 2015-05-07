@@ -74,6 +74,9 @@ namespace MaxCountersSolution.Test
     Elements of input arrays can be modified.
     */
 
+    /// <summary>
+    /// Test class for MaxCounter class.
+    /// </summary>
     [TestClass]
     public class MaxCountersTest
     {
@@ -106,6 +109,7 @@ namespace MaxCountersSolution.Test
             // act
             MaxCounters.Solution(n, a);
         }
+
         /// <summary>
         /// Failed_s the M greater than maximum length_ argument out of range exception.
         /// </summary>
@@ -162,7 +166,7 @@ namespace MaxCountersSolution.Test
             var a = new int[] { 3, 4, 4, 6, 1, 4, 4 };
 
             // act
-            var result = MaxCounters.Solution(n,a);
+            var result = MaxCounters.Solution(n, a);
 
             // assert
             var expectedResult = new int[] { 3, 2, 2, 4, 2 };
