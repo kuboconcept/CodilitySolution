@@ -1,0 +1,12 @@
+D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\3.PrefixSums\PassingCarsSolution\bin\Debug\PassingCars.dll
+D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\3.PrefixSums\PassingCarsSolution\bin\Debug\PassingCars.pdb
+D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\3.PrefixSums\PassingCarsSolution\obj\Debug\PassingCars.dll
+D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\3.PrefixSums\PassingCarsSolution\obj\Debug\PassingCars.pdb
+D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\3.PrefixSums\PassingCarsSolution\bin\Debug\PassingCars.dll.CodeAnalysisLog.xml
+D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\3.PrefixSums\PassingCarsSolution\bin\Debug\PassingCars.dll.lastcodeanalysissucceeded
+D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\3.PrefixSums\1.PassingCars\PassingCarsSolution\bin\Debug\PassingCars.dll
+D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\3.PrefixSums\1.PassingCars\PassingCarsSolution\bin\Debug\PassingCars.pdb
+D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\3.PrefixSums\1.PassingCars\PassingCarsSolution\bin\Debug\PassingCars.dll.CodeAnalysisLog.xml
+D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\3.PrefixSums\1.PassingCars\PassingCarsSolution\bin\Debug\PassingCars.dll.lastcodeanalysissucceeded
+D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\3.PrefixSums\1.PassingCars\PassingCarsSolution\obj\Debug\PassingCars.dll
+D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\3.PrefixSums\1.PassingCars\PassingCarsSolution\obj\Debug\PassingCars.pdb
