@@ -4,3 +4,4 @@ D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\1.TimeComplexity\1.Fr
 D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\1.TimeComplexity\1.FrogJmp\FrogJmp\obj\Debug\FrogJmp.pdb
 D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\1.TimeComplexity\1.FrogJmp\FrogJmp\bin\Debug\FrogJmp.dll.CodeAnalysisLog.xml
 D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\1.TimeComplexity\1.FrogJmp\FrogJmp\bin\Debug\FrogJmp.dll.lastcodeanalysissucceeded
+D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\1.TimeComplexity\1.FrogJmp\FrogJmp\obj\Debug\FrogJmpSolution.csprojResolveAssemblyReference.cache

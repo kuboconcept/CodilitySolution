@@ -23,9 +23,6 @@
     </timestamps>
     <violations />
   </sourcecode>
-  <project key="-459572623">
-    <configuration>DEBUG;TRACE</configuration>
-  </project>
   <sourcecode name="CountDivTest.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2014/04/01 10:18:24.000</styleCop>
@@ -49,4 +46,7 @@
     </timestamps>
     <violations />
   </sourcecode>
+  <project key="-459572623">
+    <configuration>DEBUG;TRACE</configuration>
+  </project>
 </stylecopresultscache>

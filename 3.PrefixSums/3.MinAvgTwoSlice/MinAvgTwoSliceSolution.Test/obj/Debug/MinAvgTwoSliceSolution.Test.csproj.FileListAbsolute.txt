@@ -1,0 +1,9 @@
+D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\3.PrefixSums\3.MinAvgTwoSlice\MinAvgTwoSliceSolution.Test\bin\Debug\MinAvgTwoSliceSolution.Test.dll
+D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\3.PrefixSums\3.MinAvgTwoSlice\MinAvgTwoSliceSolution.Test\bin\Debug\MinAvgTwoSliceSolution.Test.pdb
+D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\3.PrefixSums\3.MinAvgTwoSlice\MinAvgTwoSliceSolution.Test\bin\Debug\MinAvgTwoSliceSolution.dll
+D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\3.PrefixSums\3.MinAvgTwoSlice\MinAvgTwoSliceSolution.Test\bin\Debug\MinAvgTwoSliceSolution.pdb
+D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\3.PrefixSums\3.MinAvgTwoSlice\MinAvgTwoSliceSolution.Test\obj\Debug\MinAvgTwoSliceSolution.Test.csprojResolveAssemblyReference.cache
+D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\3.PrefixSums\3.MinAvgTwoSlice\MinAvgTwoSliceSolution.Test\obj\Debug\MinAvgTwoSliceSolution.Test.dll
+D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\3.PrefixSums\3.MinAvgTwoSlice\MinAvgTwoSliceSolution.Test\obj\Debug\MinAvgTwoSliceSolution.Test.pdb
+D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\3.PrefixSums\3.MinAvgTwoSlice\MinAvgTwoSliceSolution.Test\bin\Debug\MinAvgTwoSliceSolution.Test.dll.CodeAnalysisLog.xml
+D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\3.PrefixSums\3.MinAvgTwoSlice\MinAvgTwoSliceSolution.Test\bin\Debug\MinAvgTwoSliceSolution.Test.dll.lastcodeanalysissucceeded

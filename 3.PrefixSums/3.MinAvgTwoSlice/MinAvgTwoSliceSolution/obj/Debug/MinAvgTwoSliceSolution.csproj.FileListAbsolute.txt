@@ -1,0 +1,6 @@
+D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\3.PrefixSums\3.MinAvgTwoSlice\MinAvgTwoSliceSolution\bin\Debug\MinAvgTwoSliceSolution.dll
+D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\3.PrefixSums\3.MinAvgTwoSlice\MinAvgTwoSliceSolution\bin\Debug\MinAvgTwoSliceSolution.pdb
+D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\3.PrefixSums\3.MinAvgTwoSlice\MinAvgTwoSliceSolution\obj\Debug\MinAvgTwoSliceSolution.dll
+D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\3.PrefixSums\3.MinAvgTwoSlice\MinAvgTwoSliceSolution\obj\Debug\MinAvgTwoSliceSolution.pdb
+D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\3.PrefixSums\3.MinAvgTwoSlice\MinAvgTwoSliceSolution\bin\Debug\MinAvgTwoSliceSolution.dll.CodeAnalysisLog.xml
+D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\3.PrefixSums\3.MinAvgTwoSlice\MinAvgTwoSliceSolution\bin\Debug\MinAvgTwoSliceSolution.dll.lastcodeanalysissucceeded
