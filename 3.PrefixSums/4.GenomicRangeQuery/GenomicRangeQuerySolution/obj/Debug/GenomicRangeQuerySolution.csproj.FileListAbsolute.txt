@@ -1,0 +1,6 @@
+D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\3.PrefixSums\4.GenomicRangeQuery\GenomicRangeQuerySolution\bin\Debug\GenomicRangeQuerySolution.dll
+D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\3.PrefixSums\4.GenomicRangeQuery\GenomicRangeQuerySolution\bin\Debug\GenomicRangeQuerySolution.pdb
+D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\3.PrefixSums\4.GenomicRangeQuery\GenomicRangeQuerySolution\obj\Debug\GenomicRangeQuerySolution.dll
+D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\3.PrefixSums\4.GenomicRangeQuery\GenomicRangeQuerySolution\obj\Debug\GenomicRangeQuerySolution.pdb
+D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\3.PrefixSums\4.GenomicRangeQuery\GenomicRangeQuerySolution\bin\Debug\GenomicRangeQuerySolution.dll.CodeAnalysisLog.xml
+D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\3.PrefixSums\4.GenomicRangeQuery\GenomicRangeQuerySolution\bin\Debug\GenomicRangeQuerySolution.dll.lastcodeanalysissucceeded

@@ -1,19 +1,2 @@
 <?xml version="1.0"?>
-<ArrayOfArrayOfArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <ArrayOfArrayOfString>
-    <ArrayOfString>
-      <string>D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\1.TimeComplexity\3.TapeEquilibrium\TapeEquilibrium\TapeEquilibrium.cs</string>
-    </ArrayOfString>
-    <ArrayOfString>
-      <string>D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\1.TimeComplexity\3.TapeEquilibrium\TapeEquilibriumTest\TapeEquilibriumTest.cs</string>
-    </ArrayOfString>
-  </ArrayOfArrayOfString>
-  <ArrayOfArrayOfString>
-    <ArrayOfString>
-      <string>D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\2.CountingElements\4.MaxCounters\MaxCountersSolution\MaxCounters.cs</string>
-    </ArrayOfString>
-    <ArrayOfString>
-      <string>D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\ConsoleApplication1\Program.cs</string>
-    </ArrayOfString>
-  </ArrayOfArrayOfString>
-</ArrayOfArrayOfArrayOfString>
+<ArrayOfArrayOfArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" />

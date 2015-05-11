@@ -69,6 +69,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinAvgTwoSliceSolution", "3
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinAvgTwoSliceSolution.Test", "3.PrefixSums\3.MinAvgTwoSlice\MinAvgTwoSliceSolution.Test\MinAvgTwoSliceSolution.Test.csproj", "{DA4CB15A-BD73-471B-8D0E-48927050D11B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.GenomicRangeQuery", "4.GenomicRangeQuery", "{498050F8-1A29-4563-840A-7952021AF966}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenomicRangeQuerySolution.Test", "3.PrefixSums\4.GenomicRangeQuery\GenomicRangeQuerySolution.Test\GenomicRangeQuerySolution.Test.csproj", "{640F21C1-EA0E-4170-B3BE-4150E8B15A5D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenomicRangeQuerySolution", "3.PrefixSums\4.GenomicRangeQuery\GenomicRangeQuerySolution\GenomicRangeQuerySolution.csproj", "{1CB402B7-C97F-49C5-B544-555F30989F0D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -155,6 +161,14 @@ Global
 		{DA4CB15A-BD73-471B-8D0E-48927050D11B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DA4CB15A-BD73-471B-8D0E-48927050D11B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DA4CB15A-BD73-471B-8D0E-48927050D11B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{640F21C1-EA0E-4170-B3BE-4150E8B15A5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{640F21C1-EA0E-4170-B3BE-4150E8B15A5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{640F21C1-EA0E-4170-B3BE-4150E8B15A5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{640F21C1-EA0E-4170-B3BE-4150E8B15A5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CB402B7-C97F-49C5-B544-555F30989F0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CB402B7-C97F-49C5-B544-555F30989F0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CB402B7-C97F-49C5-B544-555F30989F0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CB402B7-C97F-49C5-B544-555F30989F0D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -190,5 +204,8 @@ Global
 		{51BB5D0E-CB54-41CA-A6FA-1A3D1BBBFC39} = {9DC308B8-F75B-4B2B-9151-8829FE4BE8D2}
 		{6D57930A-569C-4096-A22B-6E4A5B077324} = {51BB5D0E-CB54-41CA-A6FA-1A3D1BBBFC39}
 		{DA4CB15A-BD73-471B-8D0E-48927050D11B} = {51BB5D0E-CB54-41CA-A6FA-1A3D1BBBFC39}
+		{498050F8-1A29-4563-840A-7952021AF966} = {9DC308B8-F75B-4B2B-9151-8829FE4BE8D2}
+		{640F21C1-EA0E-4170-B3BE-4150E8B15A5D} = {498050F8-1A29-4563-840A-7952021AF966}
+		{1CB402B7-C97F-49C5-B544-555F30989F0D} = {498050F8-1A29-4563-840A-7952021AF966}
 	EndGlobalSection
 EndGlobal

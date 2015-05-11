@@ -1,0 +1,9 @@
+D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\3.PrefixSums\4.GenomicRangeQuery\GenomicRangeQuerySolution.Test\bin\Debug\GenomicRangeQuerySolution.Test.dll
+D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\3.PrefixSums\4.GenomicRangeQuery\GenomicRangeQuerySolution.Test\bin\Debug\GenomicRangeQuerySolution.Test.pdb
+D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\3.PrefixSums\4.GenomicRangeQuery\GenomicRangeQuerySolution.Test\bin\Debug\GenomicRangeQuerySolution.dll
+D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\3.PrefixSums\4.GenomicRangeQuery\GenomicRangeQuerySolution.Test\bin\Debug\GenomicRangeQuerySolution.pdb
+D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\3.PrefixSums\4.GenomicRangeQuery\GenomicRangeQuerySolution.Test\obj\Debug\GenomicRangeQuerySolution.Test.csprojResolveAssemblyReference.cache
+D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\3.PrefixSums\4.GenomicRangeQuery\GenomicRangeQuerySolution.Test\obj\Debug\GenomicRangeQuerySolution.Test.dll
+D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\3.PrefixSums\4.GenomicRangeQuery\GenomicRangeQuerySolution.Test\obj\Debug\GenomicRangeQuerySolution.Test.pdb
+D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\3.PrefixSums\4.GenomicRangeQuery\GenomicRangeQuerySolution.Test\bin\Debug\GenomicRangeQuerySolution.Test.dll.CodeAnalysisLog.xml
+D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\3.PrefixSums\4.GenomicRangeQuery\GenomicRangeQuerySolution.Test\bin\Debug\GenomicRangeQuerySolution.Test.dll.lastcodeanalysissucceeded
