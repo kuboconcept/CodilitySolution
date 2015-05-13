@@ -75,6 +75,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenomicRangeQuerySolution.T
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenomicRangeQuerySolution", "3.PrefixSums\4.GenomicRangeQuery\GenomicRangeQuerySolution\GenomicRangeQuerySolution.csproj", "{1CB402B7-C97F-49C5-B544-555F30989F0D}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.Sorting", "4.Sorting", "{06E505E1-B108-4C5C-9C8B-C8B976857A9B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.MaxProductOfThree", "1.MaxProductOfThree", "{FBD48CCE-A1E6-4757-8390-8FCCB4C577C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaxProductOfThreeSolution", "4.Sorting\1.MaxProductOfThree\MaxProductOfThreeSolution\MaxProductOfThreeSolution.csproj", "{04A4FC05-FFF1-49E3-A58A-D5FF52B93DE4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaxProductOfThreeSolution.Test", "MaxProductOfThreeSolution.Test\MaxProductOfThreeSolution.Test.csproj", "{373C42A5-17D7-4378-80A6-2EF6A427370D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -169,6 +177,14 @@ Global
 		{1CB402B7-C97F-49C5-B544-555F30989F0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1CB402B7-C97F-49C5-B544-555F30989F0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1CB402B7-C97F-49C5-B544-555F30989F0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04A4FC05-FFF1-49E3-A58A-D5FF52B93DE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04A4FC05-FFF1-49E3-A58A-D5FF52B93DE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04A4FC05-FFF1-49E3-A58A-D5FF52B93DE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04A4FC05-FFF1-49E3-A58A-D5FF52B93DE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{373C42A5-17D7-4378-80A6-2EF6A427370D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{373C42A5-17D7-4378-80A6-2EF6A427370D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{373C42A5-17D7-4378-80A6-2EF6A427370D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{373C42A5-17D7-4378-80A6-2EF6A427370D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -207,5 +223,8 @@ Global
 		{498050F8-1A29-4563-840A-7952021AF966} = {9DC308B8-F75B-4B2B-9151-8829FE4BE8D2}
 		{640F21C1-EA0E-4170-B3BE-4150E8B15A5D} = {498050F8-1A29-4563-840A-7952021AF966}
 		{1CB402B7-C97F-49C5-B544-555F30989F0D} = {498050F8-1A29-4563-840A-7952021AF966}
+		{FBD48CCE-A1E6-4757-8390-8FCCB4C577C2} = {06E505E1-B108-4C5C-9C8B-C8B976857A9B}
+		{04A4FC05-FFF1-49E3-A58A-D5FF52B93DE4} = {FBD48CCE-A1E6-4757-8390-8FCCB4C577C2}
+		{373C42A5-17D7-4378-80A6-2EF6A427370D} = {FBD48CCE-A1E6-4757-8390-8FCCB4C577C2}
 	EndGlobalSection
 EndGlobal

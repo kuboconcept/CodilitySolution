@@ -1,0 +1,7 @@
+D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\MaxProductOfThreeSolution.Test\bin\Debug\MaxProductOfThreeSolution.Test.dll
+D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\MaxProductOfThreeSolution.Test\bin\Debug\MaxProductOfThreeSolution.Test.pdb
+D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\MaxProductOfThreeSolution.Test\bin\Debug\MaxProductOfThreeSolution.dll
+D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\MaxProductOfThreeSolution.Test\bin\Debug\MaxProductOfThreeSolution.pdb
+D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\MaxProductOfThreeSolution.Test\obj\Debug\MaxProductOfThreeSolution.Test.csprojResolveAssemblyReference.cache
+D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\MaxProductOfThreeSolution.Test\obj\Debug\MaxProductOfThreeSolution.Test.dll
+D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\MaxProductOfThreeSolution.Test\obj\Debug\MaxProductOfThreeSolution.Test.pdb
