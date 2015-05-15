@@ -1,2 +1,22 @@
 <?xml version="1.0"?>
-<ArrayOfArrayOfArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" />
+<ArrayOfArrayOfArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ArrayOfArrayOfString>
+    <ArrayOfString>
+      <string>d:\ari gunawan\belajar\practice\codility\solution\codility\1.timecomplexity\3.tapeequilibrium\tapeequilibriumtest\tapeequilibriumtest.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\1.TimeComplexity\3.TapeEquilibrium\TapeEquilibrium\TapeEquilibrium.cs</string>
+    </ArrayOfString>
+  </ArrayOfArrayOfString>
+  <ArrayOfArrayOfString>
+    <ArrayOfString>
+      <string>D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\4.Sorting\1.MaxProductOfThree\MaxProductOfThreeSolution\MaxProductOfThree.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\MaxProductOfThreeSolution.Test\MaxProductOfThreeTest.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\4.Sorting\1.MaxProductOfThree\MaxProductOfThreeSolution\AbsoluteComparer.cs</string>
+    </ArrayOfString>
+  </ArrayOfArrayOfString>
+</ArrayOfArrayOfArrayOfString>

@@ -100,35 +100,13 @@ namespace MaxProductOfThreeSolution
             try
             {
                 // Sorted input array
-                Array.Sort(a, absComparer);
+                Array.Sort(a);
 
                 result = a[length - 1] * a[length - 2] * a[length - 3];
 
-                if (result < 0)
+                if (a[0] < 0 && a[1] < 0)
                 {
-                    result = a[length - 1] * a[length - 2];
-                    var isComplete = false;
-
-                    for (var i = 3; i <= length; i++ )
-                    {
-                        if (result < 0 && a[length - i] < 0)
-                        {
-                            result *= a[length - i];
-                            isComplete = true;
-                            break;
-                        }
-                        else if (result > 0 && a[length - i] > 0)
-                        {
-                            result *= a[length - i];
-                            isComplete = true;
-                            break;
-                        }
-                    }
-
-                    if (!isComplete)
-                    {
-                        result = a[0] * a[1] * a[2];
-                    }
+                    result = Math.Max(result, a[length - 1] * a[0] * a[1]);
                 }
             }
             catch (Exception)
