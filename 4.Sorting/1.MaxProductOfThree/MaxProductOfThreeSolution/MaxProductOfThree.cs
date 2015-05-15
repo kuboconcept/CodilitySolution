@@ -95,8 +95,6 @@ namespace MaxProductOfThreeSolution
                 throw new ArgumentOutOfRangeException("a", "N (length of a) is less than 2 or more than 100000");
             }
 
-            var absComparer = new AbsoluteComparer();
-
             try
             {
                 // Sorted input array
