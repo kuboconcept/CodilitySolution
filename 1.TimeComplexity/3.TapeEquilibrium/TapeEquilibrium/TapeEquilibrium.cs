@@ -125,7 +125,7 @@ namespace TapeEquilibriumSolution
                 // Check item value
                 if (a[0] < MIN_VALUE || MAX_VALUE < a[0])
                 {
-                    throw new ArgumentOutOfRangeException("a", "Item (a[i]) value is less than -1000 or more than 1000");
+                    throw new InvalidOperationException("Item (a[i]) value is less than -1000 or more than 1000");
                 }
                 
                 // Get sum array value
@@ -134,7 +134,7 @@ namespace TapeEquilibriumSolution
                     // Check item value
                     if (a[i] < MIN_VALUE || MAX_VALUE < a[i])
                     {
-                        throw new ArgumentOutOfRangeException("a", "Item (a[i]) value is less than -1000 or more than 1000");
+                        throw new InvalidOperationException("Item (a[i]) value is less than -1000 or more than 1000");
                     }
 
                     sum[i] = sum[i - 1] + a[i - 1];

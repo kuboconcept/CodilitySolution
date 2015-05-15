@@ -5,5 +5,3 @@ D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\1.TimeComplexity\3.Ta
 D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\1.TimeComplexity\3.TapeEquilibrium\TapeEquilibriumTest\obj\Debug\TapeEquilibriumSolution.Test.csprojResolveAssemblyReference.cache
 D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\1.TimeComplexity\3.TapeEquilibrium\TapeEquilibriumTest\obj\Debug\TapeEquilibriumTest.dll
 D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\1.TimeComplexity\3.TapeEquilibrium\TapeEquilibriumTest\obj\Debug\TapeEquilibriumTest.pdb
-D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\1.TimeComplexity\3.TapeEquilibrium\TapeEquilibriumTest\bin\Debug\TapeEquilibriumTest.dll.CodeAnalysisLog.xml
-D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\1.TimeComplexity\3.TapeEquilibrium\TapeEquilibriumTest\bin\Debug\TapeEquilibriumTest.dll.lastcodeanalysissucceeded

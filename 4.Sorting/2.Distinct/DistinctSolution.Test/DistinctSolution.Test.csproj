@@ -3,11 +3,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{373C42A5-17D7-4378-80A6-2EF6A427370D}</ProjectGuid>
+    <ProjectGuid>{F1C0DE07-F8C0-496D-94AE-1B55394AA284}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>MaxProductOfThreeSolution.Test</RootNamespace>
-    <AssemblyName>MaxProductOfThreeSolution.Test</AssemblyName>
+    <RootNamespace>DistinctSolution.Test</RootNamespace>
+    <AssemblyName>DistinctSolution.Test</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -50,13 +50,13 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="MaxProductOfThreeTest.cs" />
+    <Compile Include="DistinctTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\MaxProductOfThreeSolution\MaxProductOfThreeSolution.csproj">
-      <Project>{04a4fc05-fff1-49e3-a58a-d5ff52b93de4}</Project>
-      <Name>MaxProductOfThreeSolution</Name>
+    <ProjectReference Include="..\DistinctSolution\DistinctSolution.csproj">
+      <Project>{c527f166-f8bc-479c-9661-5a40df44570d}</Project>
+      <Name>DistinctSolution</Name>
     </ProjectReference>
   </ItemGroup>
   <Choose>

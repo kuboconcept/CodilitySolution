@@ -96,7 +96,7 @@ namespace TapeEquilibriumSolution.Test
         /// Failed_s the item less than minimum value_ argument out of range exception.
         /// </summary>
         [TestMethod]
-        [ExpectedException(typeof(ArgumentOutOfRangeException))]
+        [ExpectedException(typeof(InvalidOperationException))]
         public void Failed_ItemLessThanMinValue_ArgumentOutOfRangeException()
         {
             // arrange
@@ -107,11 +107,11 @@ namespace TapeEquilibriumSolution.Test
         }
 
         /// <summary>
-        /// Failed_s the item greater than maximum value_ argument out of range exception.
+        /// Failed_s the item greater than maximum value_ invalid operation exception.
         /// </summary>
         [TestMethod]
-        [ExpectedException(typeof(ArgumentOutOfRangeException))]
-        public void Failed_ItemGreaterThanMaxValue_ArgumentOutOfRangeException()
+        [ExpectedException(typeof(InvalidOperationException))]
+        public void Failed_ItemGreaterThanMaxValue_InvalidOperationException()
         {
             // arrange
             var a = new int[] { TapeEquilibrium.MAX_VALUE + 1, 1 };
@@ -121,10 +121,10 @@ namespace TapeEquilibriumSolution.Test
         }
 
         /// <summary>
-        /// Success_s the valid data.
+        /// Success_s the basic data.
         /// </summary>
         [TestMethod]
-        public void Success_ValidData()
+        public void Success_BasicData()
         {
             // arrange
             var a = new int[] { 3, 1, 2, 4, 3 };
