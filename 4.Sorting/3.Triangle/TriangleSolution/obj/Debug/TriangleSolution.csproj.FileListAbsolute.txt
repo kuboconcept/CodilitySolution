@@ -1,0 +1,5 @@
+D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\4.Sorting\3.Triangle\TriangleSolution\bin\Debug\TriangleSolution.dll
+D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\4.Sorting\3.Triangle\TriangleSolution\bin\Debug\TriangleSolution.pdb
+D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\4.Sorting\3.Triangle\TriangleSolution\obj\Debug\TriangleSolution.csprojResolveAssemblyReference.cache
+D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\4.Sorting\3.Triangle\TriangleSolution\obj\Debug\TriangleSolution.dll
+D:\Ari Gunawan\Belajar\Practice\Codility\Solution\Codility\4.Sorting\3.Triangle\TriangleSolution\obj\Debug\TriangleSolution.pdb
